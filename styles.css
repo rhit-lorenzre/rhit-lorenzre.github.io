@@ -5,6 +5,21 @@ body {
   text-align: center;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #8892b0;
+  margin:5px;
+}
+
+h3 {
+  color: #8892b0;
+  margin: 5px;
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 20px;
 }
