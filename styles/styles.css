@@ -1,8 +1,10 @@
 body {
-  background-color: #0a192f;
+  background-color: linear-gradient(to bottom right, navy, #0a192f);
   color: #ccd6f6;
+  display: flex;
+  justify-content: left;
   font-family: 'Inter', sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
@@ -21,13 +23,8 @@ h3 {
 }
 
 img {
-  border-radius: 50%;
-  margin-top: 20px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   width: 180px;
   height: 180px;
   object-fit: cover;
+  margin: auto;
 }
