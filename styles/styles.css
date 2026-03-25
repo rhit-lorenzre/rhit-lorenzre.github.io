@@ -27,4 +27,7 @@ img {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
 }
