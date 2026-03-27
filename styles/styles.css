@@ -22,6 +22,10 @@ nav a:hover {
   color: #646464;
 }
 
+hr {
+  color: #544f47
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   margin: 5px;
@@ -51,4 +55,9 @@ img {
 ul {
   color: #544f47;
   text-align: left;
+}
+
+p {
+  color: #544f47;
+  text-align: center;
 }
