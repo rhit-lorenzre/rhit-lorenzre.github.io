@@ -62,6 +62,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
 }
 
 ul {
@@ -79,4 +80,15 @@ li {
 p {
   color: #6F7378;
   text-align: center;
+}
+
+.github-link {
+  color: #544f47;
+  text-align: left;
+  padding-left: 10px;
+
+}
+
+.github-link:hover {
+  color: white;
 }
