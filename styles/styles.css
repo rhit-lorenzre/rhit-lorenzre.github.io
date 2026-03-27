@@ -23,23 +23,24 @@ nav a:hover {
 }
 
 hr {
-  color: #544f47
+  color: #544f47;
 }
 
 h1 {
   font-family: 'Montserrat', sans-serif;
   margin: 5px;
   text-align: center;
+  color: #545454;
 }
 
 h2 {
-  color: #544f47;;
+  color: #544f47;
   margin:5px;
   text-align: left;
 }
 
 h3 {
-  color: #544f47;;
+  color: #544f47;
   margin: 5px;
   text-align: center;
 }
