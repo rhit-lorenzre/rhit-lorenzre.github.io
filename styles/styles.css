@@ -5,6 +5,13 @@ body {
   
 }
 
+.container {
+  width: 60%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
+
 nav {
   background: linear-gradient(to top left, #6F7378, #ABB0B8);
   color: black;
@@ -31,17 +38,20 @@ h1 {
   margin: 5px;
   text-align: center;
   color: #545454;
+  
 }
 
 h2 {
   color: #544f47;
   text-align: left;
+  margin-top: 15px;
 }
 
 h3 {
   color: #544f47;
   margin: 5px;
   text-align: center;
+  margin-top: 10px;
 }
 
 img {
@@ -57,6 +67,12 @@ img {
 ul {
   color: #544f47;
   text-align: left;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
 }
 
 p {
