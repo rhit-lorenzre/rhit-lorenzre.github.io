@@ -13,7 +13,7 @@ nav {
 }
 
 nav a {
-  color: gray;
+  color: #544f47;
   margin: 0 15px;
   font-weight: bold;
 }
@@ -29,13 +29,13 @@ h1 {
 }
 
 h2 {
-  color: gray;
+  color: #544f47;;
   margin:5px;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
-  color: gray;
+  color: #544f47;;
   margin: 5px;
   text-align: center;
 }
@@ -46,4 +46,9 @@ img {
   object-fit: cover;
   margin: auto;
   text-align: center;
+}
+
+ul {
+  color: #544f47;
+  text-align: left;
 }
