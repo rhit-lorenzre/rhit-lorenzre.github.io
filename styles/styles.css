@@ -13,7 +13,7 @@ nav {
 }
 
 nav a {
-  color: #ccd6f6;
+  color: gray;
   margin: 0 15px;
   font-weight: bold;
 }
@@ -35,7 +35,7 @@ h2 {
 }
 
 h3 {
-  color: #gray;
+  color: gray;
   margin: 5px;
   text-align: center;
 }
