@@ -50,6 +50,7 @@ img {
   object-fit: cover;
   margin: auto;
   text-align: center;
+  align-items: center;
 }
 
 ul {
