@@ -1,13 +1,13 @@
 body {
-  background: linear-gradient(to bottom right, #1D4787, #0a192f);
+  background: linear-gradient(to bottom right, #ABB0B8, #6F7378);
   color: #ccd6f6;
   font-family: 'Inter', sans-serif;
   
 }
 
 nav {
-  background: linear-gradient(to top left, #0a192f, #1D4787);
-  color: #0a192f;
+  background: linear-gradient(to top left, #6F7378, #ABB0B8);
+  color: black;
   padding: 15px;
   text-align: center;
 }
