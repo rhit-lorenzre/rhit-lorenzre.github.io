@@ -35,7 +35,6 @@ h1 {
 
 h2 {
   color: #544f47;
-  margin:5px;
   text-align: left;
 }
 
@@ -49,9 +48,10 @@ img {
   width: 180px;
   height: 180px;
   object-fit: cover;
-  margin: auto;
   text-align: center;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
@@ -60,6 +60,6 @@ ul {
 }
 
 p {
-  color: #544f47;
+  color: #6F7378;
   text-align: center;
 }
