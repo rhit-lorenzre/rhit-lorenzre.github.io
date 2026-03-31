@@ -124,3 +124,7 @@ p {
   margin-bottom: 15px;
   color: #1f1f1f; /* darker paragraph text */
 }
+ 
+.github-section {
+  text-align: center;
+}
