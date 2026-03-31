@@ -110,3 +110,13 @@ p {
   line-height: 1.5;
   margin-bottom: 15px;
 }
+
+a, nav a {
+  color: #ccd6f6; /* soft blue for links */
+  text-decoration: none; /* remove underline */
+  transition: color 0.3s ease;
+}
+
+a:hover, nav a:hover {
+  color: #ffd700; /* golden hover highlight */
+}
