@@ -129,3 +129,17 @@ p {
   text-align: center;
   padding: 2rem 0;
 }
+
+.resume-header {
+  text-align: center; /* centers everything inside this div */
+  margin-bottom: 20px; /* optional spacing */
+}
+
+.resume-header a {
+  text-decoration: none; /* optional: remove underline */
+  margin: 0 10px;        /* space out the links */
+}
+
+.resume-header a:hover {
+  text-decoration: underline; /* hover effect */
+}
