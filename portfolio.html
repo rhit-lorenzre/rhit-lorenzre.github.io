@@ -1,39 +1,70 @@
-<html>
-  <head>
-    <title>Portfolio</title>
-    <link rel ="stylesheet" href="styles/styles.css">
-  </head>
-  <body>
-    <div id ="navbar"> </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Reagan Lorenzen</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <div id="navbar"></div>
+
+  <main>
     <h1>Portfolio</h1>
-    <hr>
 
-    <div class = "container">
-    <h3><b>RISC-V Assembler(Python) Dec 2025</b></h3>
-    <p>Alongside my project team, I built a multi-pass assembler translating assembly into 32-bit machine code, implemented instruction encoding, label resolution, and pseudo instruction expansion.</p>
+    <!-- PROJECT 1 -->
+    <section class="project-card">
+      <h2>RISC-V Assembler</h2>
+      <p><strong>Python | Dec 2025</strong></p>
 
-    <p>I also developed unit-test–driven validation along side my team and resolved error by debugging edge cases. This project was programmed using Python on VSCode.</p>
+      <p>
+        Collaborated with a team to develop a multi-pass assembler that converts RISC-V assembly
+        code into 32-bit machine instructions. Implemented instruction encoding, label resolution,
+        and pseudo-instruction expansion.
+      </p>
 
-    <div>
-    <img src="images/RTypeFunctions_Portfolio.jpg" alt = "R-Type Functions code screenshot">
-    <img src="images/RTypeTest_Porfolio.jpg" alt = "R-Type testing code screenshot">
-    </div>
+      <p>
+        Contributed to unit-test–driven validation and debugged edge cases to ensure correctness.
+        Developed using Python in VS Code.
+      </p>
 
-    <h3><b>Self Balancing Tree</b></h3>
-    <p>I designed a tree data structure with recursive node logic, and implemented insertion, deletion, search, and traversals while preserving balance with the tree nodes.</p>
-    <p>I also worked on time complexity with Big-O notation. One of the biggest challenges was finding the right algorithms to create the most efficient balancing methods.</p>
+      <div class="image-row">
+        <img src="images/RTypeFunctions_Portfolio.jpg" alt="R-Type functions code screenshot">
+        <img src="images/RTypeTest_Porfolio.jpg" alt="R-Type testing screenshot">
+      </div>
+    </section>
 
-    <p>I also developed unit-test–driven validation for the tree to test its balancing methods and to test the runtimes for different functions inside the class. This project was programmed using Java on Eclipse.</p>
+    <!-- PROJECT 2 -->
+    <section class="project-card">
+      <h2>Self-Balancing Tree</h2>
+      <p><strong>Java</strong></p>
 
-    <div>
-    <img src="images/EditorTreeConstructor.jpg" alt = "EditorTreeConstructor screenshot">
-    </div>
+      <p>
+        Designed and implemented a self-balancing tree using recursive node-based logic. 
+        Supported insertion, deletion, search, and traversal while maintaining balance invariants.
+      </p>
 
-    <a class = "github-link" href="https://github.com/rhit-lorenzre">Visit My GitHub Repository</a>
-    </div>
-    </div>
+      <p>
+        Analyzed performance using Big-O notation and developed unit tests to validate balancing behavior
+        and runtime efficiency. Built using Java in Eclipse.
+      </p>
 
+      <div class="image-row">
+        <img src="images/EditorTreeConstructor.jpg" alt="Tree constructor code screenshot">
+      </div>
+    </section>
 
-  <script src = "/scripts/script.js"></script>
-  </body>
+    <!-- GITHUB -->
+    <section class="github-section">
+      <h2>More Projects</h2>
+      <p>Explore additional work and code samples on my GitHub:</p>
+      <a class="github-button" href="https://github.com/rhit-lorenzre" target="_blank">
+        View GitHub
+      </a>
+    </section>
+
+  </main>
+
+  <script src="/scripts/script.js"></script>
+</body>
 </html>
