@@ -4,7 +4,7 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #1f1f1f; /* darker text for readability */
 }
 
 /* NAVIGATION */
@@ -14,16 +14,16 @@ nav {
   padding: 15px 0;
 }
 
-nav a {
-  color: #fff;
+a, nav a {
+  color: #ccd6f6; /* soft link color matching scheme */
   margin: 0 20px;
   font-weight: bold;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-nav a:hover {
-  color: #ffd700;
+a:hover, nav a:hover {
+  color: #ffd700; /* golden hover */
 }
 
 /* HEADER */
@@ -35,11 +35,12 @@ header {
 header h1 {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
+  color: #1f1f1f; /* darker heading */
 }
 
 header p {
   font-size: 1.2rem;
-  color: #ddd;
+  color: #2e2e2e; /* darker subheading */
 }
 
 /* SECTION */
@@ -59,7 +60,7 @@ header p {
 }
 
 h2, h3 {
-  color: #545454;
+  color: #1f1f1f; /* darker headings */
 }
 
 /* Project Images */
@@ -74,6 +75,17 @@ h2, h3 {
   max-width: 45%;
   border-radius: 8px;
   box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+/* Headshot / Profile Image */
+img.headshot {
+  width: 120px;      /* smaller width */
+  height: 150px;     /* smaller height */
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 /* GitHub Button */
@@ -104,19 +116,11 @@ h2, h3 {
 ul {
   list-style-type: disc;
   padding-left: 20px;
+  color: #1f1f1f; /* darker list text */
 }
 
 p {
   line-height: 1.5;
   margin-bottom: 15px;
-}
-
-a, nav a {
-  color: #ccd6f6; /* soft blue for links */
-  text-decoration: none; /* remove underline */
-  transition: color 0.3s ease;
-}
-
-a:hover, nav a:hover {
-  color: #ffd700; /* golden hover highlight */
+  color: #2e2e2e; /* darker paragraph text */
 }
