@@ -15,7 +15,7 @@ nav {
 }
 
 a, nav a {
-  color: #ccd6f6; /* soft link color matching scheme */
+  color: #1f1f1f; /* soft link color matching scheme */
   margin: 0 20px;
   font-weight: bold;
   text-decoration: none;
@@ -23,7 +23,7 @@ a, nav a {
 }
 
 a:hover, nav a:hover {
-  color: #ffd700; /* golden hover */
+  color: #ccd6f6; /* golden hover */
 }
 
 /* HEADER */
@@ -40,7 +40,7 @@ header h1 {
 
 header p {
   font-size: 1.2rem;
-  color: #2e2e2e; /* darker subheading */
+  color: #1f1f1f; /* darker subheading */
 }
 
 /* SECTION */
@@ -103,7 +103,7 @@ img.headshot {
 
 .github-button:hover {
   background-color: #3b3b3b;
-  color: #ffd700;
+  color: #ccd6f6;
 }
 
 /* Skills Layout */
@@ -122,5 +122,5 @@ ul {
 p {
   line-height: 1.5;
   margin-bottom: 15px;
-  color: #2e2e2e; /* darker paragraph text */
+  color: #1f1f1f; /* darker paragraph text */
 }
